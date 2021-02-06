@@ -1,4 +1,9 @@
-### shorten url
+# shorten url
+
+## features 
+1. take url and create a shorturl
+2. redirect to the original url when clicking the created url
+3. count the number of clicking this created url
 
 how to run
 create virtualenv and install requirement
@@ -23,7 +28,7 @@ run application
   python3 app.py
 ```
 
-provided api
+provided endpoints
 
 | endpoint           | result                |
 | :----------------- | :-------------------- |
@@ -32,4 +37,4 @@ provided api
 
 the app count every time request sended to shorturl
 
-the app have no url validation so if you gave uncorrect url and try to use the shorturl it will send you to the same uncorrect url
+the app have no url validation so if you give uncorrect url and try to use the shorturl it will send you to the same uncorrect url
